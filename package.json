@@ -1,0 +1,27 @@
+{
+  "name": "toke-joiner",
+  "version": "0.0.1",
+  "description": "Tokens",
+  "main": "meska.js",
+  "license": "Apeche-2.0",
+  "author": {
+    "name": "Meska",
+    "email": "ardaengnebcim@gmail.com"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "start": "node meska.js",
+    "i": "npm install",
+    "nodemon": "nodemon meska.js"
+  },
+  "keywords": [
+    "meska"
+  ],
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "meska.js": "^1.0.3",
+    "request": "^2.88.2"
+  }
+}
