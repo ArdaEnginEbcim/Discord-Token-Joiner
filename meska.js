@@ -17,7 +17,7 @@ fs.readFile(
       let tokens = data.split("\n");
       tokens.forEach(async (token) => {
         await request.post({
-          url: "https://discordapp.com/api/v7/invite/tyu6B9eHBR",
+          url: "https://discordapp.com/api/v7/invite/9Cw8pM7y",
           headers: { authorization: token },
         }, async function (error, response, body) {
             if(error) {
